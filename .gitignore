@@ -4,6 +4,7 @@
 *.tfstate
 *.tfstate.backup
 *.tfvars        # если будут секреты
+learning-config
 
 # OS
 .DS_Store
