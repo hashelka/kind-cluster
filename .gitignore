@@ -5,6 +5,7 @@
 *.tfstate.backup
 *.tfvars        # если будут секреты
 learning-config
+.terraform.tfstate.lock.info
 
 # OS
 .DS_Store
