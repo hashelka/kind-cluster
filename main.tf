@@ -23,6 +23,9 @@ resource "kind_cluster" "learning" {
 
     node {
       role = "worker"
+      labels = {
+        "node-tier" = "app"
+      }
     }
 
     node {
