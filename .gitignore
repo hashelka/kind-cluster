@@ -1,9 +1,8 @@
-# Terraform
 .terraform/
 .terraform.lock.hcl
 *.tfstate
 *.tfstate.backup
-*.tfvars        # если будут секреты
+*.tfvars
 learning-config
 .terraform.tfstate.lock.info
 
